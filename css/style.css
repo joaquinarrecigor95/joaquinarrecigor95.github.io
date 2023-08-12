@@ -1,0 +1,140 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* fuentes */
+/*
+font-family: 'Gruppo', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+body {
+
+    background-image: url(../image/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(250, 247, 247);
+    padding: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: rgb(250, 247, 247);
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 18px;
+}
+.logo_footer img {
+    width: 100px;
+
+}
+.bg-image {
+    background-size: cover;
+}
+
+.contenedor {
+    text-align: right;
+}
+
+.contenedor_galeria {
+    text-align: left;
+}
+
+.logo img {
+
+    width: 60px;
+    height: auto;
+
+
+
+}
+
+.asd {
+    background-color: aqua;
+}
+
+.nav2 {
+    padding-left: 10px;
+}
+
+.nav3 {
+    padding-left: 10px;
+}
+
+.nav4 {
+    padding-left: 10px;
+}
+
+.nav5 {
+    padding-left: 10px;
+}
+
+.barra {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.Bienvenida h1 {
+
+    font-size: 4rem;
+    text-align: center;
+    margin: 20% 0px;
+
+}
+
+
+.boton {
+    text-align: center
+}
+
+.galeria img {
+    height: auto;
+    width: 500px;
+    border: 10px inset #d9c3c3;
+
+
+}
+
+.galeria_inicio img {
+
+    height: 400px;
+    width: auto;
+    border: 4px inset #d9c3c3;
+
+
+}
+
+
+
+.perfil {
+    margin: 100px 0px;
+}
+
+.perfil img {
+    height: auto;
+    width: auto;
+    border: 10px inset #d9c3c3;
+}
+
+.footer img {
+    height: auto;
+    width: 40px;
+
+
+}
+
+.texto_galeria {
+    padding: 20px;
+
+}
+
+.redes {
+    padding: 10px;
+}
