@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 /* fuentes */
+
+/* ANIMACIONES  */
+@import 'animate.css';
 /*
 font-family: 'Gruppo', sans-serif;
 font-family: 'Raleway', sans-serif;
