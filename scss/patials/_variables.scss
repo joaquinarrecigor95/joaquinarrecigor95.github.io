@@ -1,0 +1,11 @@
+$marco: #d9c3c3;
+
+@mixin ancho ($anchop) {
+    width: auto;
+}
+
+@mixin botones ($color, $background-color, $border-color) {
+    $color: #212529;
+    $background-color: #565e64;
+    $border-color: #565e64;
+}

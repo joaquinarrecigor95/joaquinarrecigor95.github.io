@@ -22,24 +22,12 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-.btn {
-  background-color: #565e64;
-  color: #000000;
-  border-color: #565e64;
-}
-
-.btn2 {
-  background-color: #21d61b;
-  color: #000000;
-  border-color: #565e64;
-}
-
-.colornav {
-  color: #565e64;
-}
-
-.tamauto, .perfil img, .galeria img {
-  height: auto;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gruppo", sans-serif;
+  font-size: 18px;
 }
 
 .logo_footer img {
@@ -59,13 +47,27 @@ p {
 }
 
 .logo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+  width: 60px;
+  height: auto;
 }
 
-.tamanio_padding, .navs nav5, .navs nav4, .navs nav3, .navs nav2 {
+.asd {
+  background-color: aqua;
+}
+
+.nav2 {
+  padding-left: 10px;
+}
+
+.nav3 {
+  padding-left: 10px;
+}
+
+.nav4 {
+  padding-left: 10px;
+}
+
+.nav5 {
   padding-left: 10px;
 }
 
@@ -74,14 +76,7 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-.bienvenida h1,
-.bienvenida h2,
-.bienvenida h3,
-.bienvenida h4 {
-  font-family: "Gruppo", sans-serif;
-  font-size: 18px;
-}
-.bienvenida h1 {
+.Bienvenida h1 {
   font-size: 4rem;
   text-align: center;
   margin: 20% 0px;
@@ -92,21 +87,15 @@ p {
 }
 
 .galeria img {
-  width: auto;
+  height: auto;
   width: 500px;
-}
-
-.bordes, .perfil img, .galeria img {
   border: 10px inset #d9c3c3;
 }
 
 .galeria_inicio img {
   height: 400px;
   width: auto;
-}
-
-.galeria img {
-  width: 500px;
+  border: 4px inset #d9c3c3;
 }
 
 .perfil {
@@ -114,7 +103,9 @@ p {
 }
 
 .perfil img {
+  height: auto;
   width: auto;
+  border: 10px inset #d9c3c3;
 }
 
 .footer img {
@@ -124,7 +115,7 @@ p {
 
 .texto_galeria {
   padding: 20px;
-}
+
 
 .redes {
   padding: 10px;
