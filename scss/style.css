@@ -42,26 +42,31 @@ p {
   height: auto;
 }
 
+.logo_footer img {
+  width: 100px;
+}
+
 .bg-image {
   background-size: cover;
 }
 
-.contenedores contenedor {
+.contenedor {
   text-align: right;
 }
-.contenedores contenedor_galeria {
+
+.contenedor_galeria {
   text-align: left;
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 .tamanio_padding, .navs nav5, .navs nav4, .navs nav3, .navs nav2 {
   padding-left: 10px;
-}
-
-.paddings texto_galeria {
-  padding: 20px;
-}
-.paddings redes {
-  padding: 10px;
 }
 
 .barra {
@@ -86,32 +91,13 @@ p {
   text-align: center;
 }
 
-.bordes, .galeria img, .perfil img {
-  border: 10px inset #d9c3c3;
-}
-
 .galeria img {
+  width: auto;
   width: 500px;
 }
 
-.logo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
-.perfil img {
-  width: auto;
-}
-
-.logo_footer img {
-  width: 100px;
-}
-
-.footer img {
-  height: auto;
-  width: 40px;
+.bordes, .perfil img, .galeria img {
+  border: 10px inset #d9c3c3;
 }
 
 .galeria_inicio img {
@@ -120,7 +106,6 @@ p {
 }
 
 .galeria img {
-  width: auto;
   width: 500px;
 }
 
@@ -128,4 +113,19 @@ p {
   margin: 100px 0px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.perfil img {
+  width: auto;
+}
+
+.footer img {
+  height: auto;
+  width: 40px;
+}
+
+.texto_galeria {
+  padding: 20px;
+}
+
+.redes {
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */

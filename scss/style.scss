@@ -32,6 +32,7 @@ p {
     color: #000000;
     border-color: #565e64;
 }
+
 .btn2 {
     @include botones (#212529, #565e64, #5bc2c2);
     background-color: #21d61b;
@@ -48,34 +49,41 @@ p {
     height: auto;
 }
 
-.logo_footer img {
-    width: 100px;
 
-}
 
 .bg-image {
     background-size: cover;
 }
 
-.contenedor {
-    text-align: right;
-}
 
-.contenedor_galeria {
-    text-align: left;
-}
+.contenedores {
 
-.logo img {
+    contenedor {
+        text-align: right;
+    }
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    
+    contenedor_galeria {
+        text-align: left;
+    }
+
+
 }
 
 .tamanio_padding {
     padding-left: 10px;
+}
+
+.paddings {
+
+
+    texto_galeria {
+        padding: 20px;
+
+    }
+
+    redes {
+        padding: 10px;
+    }
 }
 
 .navs {
@@ -129,15 +137,41 @@ p {
     text-align: center
 }
 
-.galeria img {
-    @extend.tamauto;
-    @include ancho (500px);
-    width: 500px;
-    @extend.bordes;
-}
+
 
 .bordes {
     border: 10px inset $marco;
+}
+
+.galeria img {
+    @extend.tamauto;
+    width: 500px;
+
+}
+
+.logo img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+}
+
+.perfil img {
+    @include ancho(auto);
+    @extend.tamauto;
+    @extend.bordes;
+}
+
+.logo_footer img {
+    width: 100px;
+
+}
+
+.footer img {
+    height: auto;
+    width: 40px;
 }
 
 .galeria_inicio img {
@@ -147,37 +181,19 @@ p {
 
 }
 
-
-
-
 .galeria img {
     @extend.tamauto;
+    @include ancho (500px);
     width: 500px;
-
+    @extend.bordes;
 }
+
+
+
+
 
 
 
 .perfil {
     margin: 100px 0px;
-}
-
-.perfil img {
-    @include ancho(auto);
-    @extend.tamauto;
-    @extend.bordes;
-}
-
-.footer img {
-    height: auto;
-    width: 40px;
-}
-
-.texto_galeria {
-    padding: 20px;
-
-}
-
-.redes {
-    padding: 10px;
 }
